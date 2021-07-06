@@ -2,6 +2,8 @@ body{font-family: 'Source Sans Pro', sans-serif;
 }
 h1{
     font-size: 50px;
+    font-weight: 900;
+    color: rgb(24, 23, 23);
 }
 h2{
     font-size: 30px;
@@ -26,11 +28,11 @@ p{
 }
 .half-width {
     width: 50%;
-    padding: 5%;
+    padding:5%;
     
 }
 .half-width img {
-    width: 95%;
+    width: 90%;
 }
 .button {
    text-decoration: none;
@@ -67,4 +69,5 @@ p{
 #footer-paragraph{
     color: white;
 }
-
+.about-padding{
+    padding-right: 20%;}
