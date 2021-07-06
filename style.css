@@ -6,8 +6,15 @@ h1{
 h2{
     font-size: 30px;
 }
+p{
+    font-size: 20px;
+    font-weight: 550;
+}
 .orange{
     color: orange;
+}
+.grey{
+    color: gray;
 }
 .sideways{
     display: flex;
@@ -20,9 +27,10 @@ h2{
 .half-width {
     width: 50%;
     padding: 5%;
+    
 }
 .half-width img {
-    width: 80%;
+    width: 95%;
 }
 .button {
    text-decoration: none;
@@ -30,7 +38,7 @@ h2{
    padding: 10px 40px;
    color: white;
    font-weight: 700;
-   border-radius: 5px;
+   border-radius: 20px;
 }
 .three-side{
     width: 33.33%;
@@ -39,3 +47,24 @@ h2{
 .three-side img {
     width: 100%;
 }
+.box{
+    box-shadow: 5px 5px 20px gainsboro;
+    margin: 2.5% 2.5% 2.5% 2.5%;
+    border-radius: 20px;
+}
+.align{
+   margin: auto;
+   text-align: center;
+    width: 50%;
+}
+.footer{ width: 100%;
+    background-color: black;
+    text-align: center;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+
+}
+#footer-paragraph{
+    color: white;
+}
+
