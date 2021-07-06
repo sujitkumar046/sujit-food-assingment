@@ -1,0 +1,41 @@
+body{font-family: 'Source Sans Pro', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 30px;
+}
+.orange{
+    color: orange;
+}
+.sideways{
+    display: flex;
+}
+.mid {
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.half-width {
+    width: 50%;
+    padding: 5%;
+}
+.half-width img {
+    width: 80%;
+}
+.button {
+   text-decoration: none;
+   background-image: linear-gradient(orange, tomato);
+   padding: 10px 40px;
+   color: white;
+   font-weight: 700;
+   border-radius: 5px;
+}
+.three-side{
+    width: 33.33%;
+    padding: 3%;
+}
+.three-side img {
+    width: 100%;
+}
